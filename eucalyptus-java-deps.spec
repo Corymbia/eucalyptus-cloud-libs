@@ -1,6 +1,6 @@
 Name:           eucalyptus-java-deps
 Version:        4.4
-Release:        0%{?build_id:.%build_id}%{?dist}
+Release:        1%{?build_id:.%build_id}%{?dist}
 Summary:        Eucalyptus cloud java dependencies
 
 License:        ASL 2.0 and (ASL 2.0 and BSD) and (ASL 2.0 or EPL) and (ASL 2.0 and LGPLv2+) and (ASL 2.0 or LGPLv2+ or MPLv1.1) and BSD and BSD with advertising and CC-BY and CC-BY-SA and ((CDDL or GPLv2 with exceptions) and ASL 2.0) and CPAL and CPL and ISC and MIT and LGPLv2 and LGPLv2+ and Public Domain and WTFPL
@@ -41,5 +41,8 @@ make %{?_smp_mflags}
 
 
 %changelog
+* Wed Mar 14 2018 Steve Jones <steve.jones@appscale.com>
+- Bump release to ensure latest dependencies are installed
+
 * Fri Mar 25 2016 Garrett Holmstrom <gholms@hpe.com>
 - Created
