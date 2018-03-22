@@ -13,6 +13,9 @@ BuildArch:      noarch
 # usual systemwide locations
 %global __provides_exclude_from ^%{_datadir}/eucalyptus/.*.jar$
 
+# Disable automatic OSGI Requires because we provide all dependencies
+%global __requires_exclude osgi(.*)
+
 Provides:       eucalyptus-java-deps-devel = %{name}-%{release}
 
 
