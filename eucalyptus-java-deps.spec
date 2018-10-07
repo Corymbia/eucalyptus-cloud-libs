@@ -40,10 +40,13 @@ make %{?_smp_mflags}
 %files
 %doc README
 %license licenses/*
-%{_datarootdir}/eucalyptus/*.jar
+%{_datarootdir}/eucalyptus/lib/*.jar
 
 
 %changelog
+* Wed Oct  7 2018 Steve Jones <steve.jones@appscale.com>
+- Move jars to lib directory
+
 * Wed Mar 14 2018 Steve Jones <steve.jones@appscale.com>
 - Bump release to ensure latest dependencies are installed
 
