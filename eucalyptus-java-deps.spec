@@ -16,7 +16,7 @@ BuildArch:      noarch
 # Disable automatic OSGI Requires because we provide all dependencies
 %global __requires_exclude osgi(.*)
 
-Provides:       eucalyptus-java-deps-devel = %{name}-%{release}
+Provides:       eucalyptus-java-deps-devel = %{version}-%{release}
 
 
 %description
